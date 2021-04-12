@@ -6,5 +6,5 @@
     É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interprestada / funcional.
 </p>
 <p>
-    A linguagem está presente no client-side (Front-End), server-side (Back-End), desktop e mobile.
+    A linguagem está presente no <b>client-side (Front-end)</b>, server-side (Back-End), desktop e mobile.
 </p>
