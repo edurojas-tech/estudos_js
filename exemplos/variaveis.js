@@ -17,7 +17,7 @@ console.log(valorIndefinido)
 
 /*
     === Glossário do JS ===
-    O código 'console.log()', recebe as variáveis para ser exibida no console do node, o mesmo pode ser exibido no console do browser.
+    O código 'console.log()', recebe as variáveis para ser exibida no console do node, 
+    o mesmo pode ser exibido no console do browser.
     Este código é do tipo método do Objeto console, ou uma função nativa da linguagem.
-
 */
