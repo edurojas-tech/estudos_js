@@ -12,7 +12,7 @@
     A linguagem está presente no <b>client-side (Front-end)</b>, server-side (Back-End), Bancos de dados, frameWorks, desktop e mobile:
 </p>
 
-[x] Client-side ou Front-end (browsers):
+- [x] Client-side ou Front-end (browsers):
     - Chrome;
     - Safari;
     - Firefox;
@@ -20,12 +20,12 @@
     - Opera;
     - Frameworks: Angular, Vue.js, React e outros.
 
-[x] Server-side ou Back-end (serviços e Banco Dados):
+- [x] Server-side ou Back-end (serviços e Banco Dados):
     - Node.js;
     - Deno;
     - MongoDB (banco de dados NoSQL).
 
-[X] Frameworks para desenvolvimento Mobile e Desktop:
+- [x] Frameworks para desenvolvimento Mobile e Desktop:
     - Eletron para desenvolvimento de aplicações desktop;
     - Cordova para desenvolvimento de aplicações Híbridas (Android, IOS e Browser);
     - React Native para desenvolvimento Mobile;
