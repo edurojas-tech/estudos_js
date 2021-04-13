@@ -6,5 +6,29 @@
     É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interprestada / funcional.
 </p>
 <p>
-    A linguagem está presente no <b>client-side (Front-end)</b>, server-side (Back-End), desktop e mobile.
+    JavaScript permite inserir dinâmica ou interações em elementos <b>HTML</b> e controlar customizações CSS, de forma programática em páginas de internet, sistemas ou app.
 </p>
+<p>
+    A linguagem está presente no <b>client-side (Front-end)</b>, server-side (Back-End), Bancos de dados, frameWorks, desktop e mobile:
+</p>
+
+[x] Client-side ou Front-end (browsers):
+    - Chrome;
+    - Safari;
+    - Firefox;
+    - Edge;
+    - Opera;
+    - Frameworks: Angular, Vue.js, React e outros.
+
+[x] Server-side ou Back-end (serviços e Banco Dados):
+    - Node.js;
+    - Deno;
+    - MongoDB (banco de dados NoSQL).
+
+[X] Frameworks para desenvolvimento Mobile e Desktop:
+    - Eletron para desenvolvimento de aplicações desktop;
+    - Cordova para desenvolvimento de aplicações Híbridas (Android, IOS e Browser);
+    - React Native para desenvolvimento Mobile;
+    - Vue Native para desenvolvimento Mobile;
+
+# JavaScript não é Java.
