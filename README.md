@@ -36,3 +36,12 @@
     - Vue Native para desenvolvimento Mobile;
 
 # JavaScript não é Java.
+
+<h2>
+    Comentários
+</h2>
+<p>
+    Comentários no código, auxilia na documentação do projeto, para orientar o que específicamente determinada
+    linha de código de programação JS, está realizado.
+    Ajuda no trabalho em equipe para orientar outros programadores ou até mesmo o responsável pelo código criado, como lembrete.
+</p>
