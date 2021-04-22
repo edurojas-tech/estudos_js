@@ -22,7 +22,7 @@
     - Firefox;
     - Edge;
     - Opera;
-    - Frameworks: Angular, Vue.js, React e outros.
+    - Frameworks: Angular (com TypeScript), Vue.js, React e outros.
 
 - [x] Server-side ou Back-end (serviços e Banco Dados):
     - Node.js;
