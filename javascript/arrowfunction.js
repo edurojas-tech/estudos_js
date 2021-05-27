@@ -10,9 +10,9 @@ const multiplicar = (v1, v2) => {
 
 const tipoVariavel = (variavel) => console.log(typeof variavel);
 
-tranformsUppercase("betty carolina")
+tranformsUppercase("javascript, programação web")
 multiplicar(25, 3)
 
-tipoVariavel(23)
-tipoVariavel("Aviv Kombucha")
-tipoVariavel(false)
+tipoVariavel(23)                        //number
+tipoVariavel("Textos ou caracteres")    //string
+tipoVariavel(false)                     //boolean
