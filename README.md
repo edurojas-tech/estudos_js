@@ -47,7 +47,7 @@
     o responsável pelo código criado, como lembrete.
 </p>
 
-# ESCOPO DE VÁRIAVEL
+# Escopo de variável
 <p>
     O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
     As variáveis podem ser locais ou globais (verificar exemplo na pasta javascript).
