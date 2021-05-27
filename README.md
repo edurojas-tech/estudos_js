@@ -61,3 +61,6 @@
 | Operador Aritmético |  Descrição  |
 | ----------- | ----------- |
 | + | Adição |
+| - | Subtração |
+| * | Multiplicação |
+| / | Divisão |
