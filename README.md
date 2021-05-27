@@ -46,3 +46,13 @@
     Ajuda no trabalho em equipe para orientar outros programadores ou até mesmo 
     o responsável pelo código criado, como lembrete.
 </p>
+
+# ESCOPO DE VÁRIAVEL
+<p>
+    O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
+    As variáveis podem ser locais ou globais (verificar exemplo na pasta javascript).
+</p>
+<p>
+    Em alguns casos as variáveis ou funções globais em JS seja prejudicial, devido ao elevado número de declaração das mesmas, por isso evite criar ou declarar muitas variáveis e funções globais,
+    o ideal que estas estruturas sejam feitas em escopos.
+</p>
