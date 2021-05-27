@@ -1,7 +1,6 @@
 // ESCOPO DE VÁRIAVEL
-/*
-    O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
-    As variáveis podem ser locais ou globais.
+/* O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
+   As variáveis podem ser locais ou globais.
 */
 
 var miVar = 'GLOBAL'
@@ -19,3 +18,5 @@ function otraFunc(){
 
 console.log(miVar)      // esperado GLOBAL
 console.log(miFunc());  // esperado LOCAL
+console.log(otraVar)    // esperado global
+console.log(otraFunc()) // esperado local
