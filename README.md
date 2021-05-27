@@ -58,8 +58,6 @@
 </p>
 
 # Operadores
-- [x] Aritméticos:
-    | Operador |  Descrição  |
-    | ----------- | ----------- |
-    | + | Adição |
-    
+| Operador Aritmético |  Descrição  |
+| ----------- | ----------- |
+| + | Adição |
