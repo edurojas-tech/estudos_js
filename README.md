@@ -56,3 +56,10 @@
     Em alguns casos as variáveis ou funções globais em JS seja prejudicial, devido ao elevado número de declaração das mesmas, por isso evite criar ou declarar muitas variáveis e funções globais,
     o ideal que estas estruturas sejam feitas em escopos.
 </p>
+
+# Operadores
+- [x] Aritméticos:
+    | Operador |  Descrição  |
+    | ----------- | ----------- |
+    | + | Adição |
+    
