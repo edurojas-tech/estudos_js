@@ -20,3 +20,5 @@ console.log(miVar)      // esperado GLOBAL
 console.log(miFunc());  // esperado LOCAL
 console.log(otraVar)    // esperado global
 console.log(otraFunc()) // esperado local
+
+// the end code!
