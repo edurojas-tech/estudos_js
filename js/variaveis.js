@@ -5,6 +5,7 @@ var temMoto = true          //tipo boolean verdadeiro
 var temCarro = false        //tipo boolean falso
 var estadoCivil = null      //tipo Null ou Nulo
 var valorIndefinido         //tipo undefined
+var passatempo = ["treinar musculação", "Leitura","Assistir Marvel"]    //tipo array
 
 //executando no console do node.js
 console.log(nome)
