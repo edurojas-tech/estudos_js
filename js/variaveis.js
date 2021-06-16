@@ -10,13 +10,13 @@ const variaveis = {
 
     //executando no console do node.js
     showVars(){
-        console.log(nome);
-        console.log(idade);
-        console.log(altura);
-        console.log(temMoto);
-        console.log(temCarro);
-        console.log(estadoCivil);
-        console.log(valorIndefinido);
+        console.log(this.nome);
+        console.log(this.idade);
+        console.log(this.altura);
+        console.log(this.temMoto);
+        console.log(this.temCarro);
+        console.log(this.estadoCivil);
+        console.log(this.valorIndefinido);
     }
 
     /*
@@ -24,7 +24,8 @@ const variaveis = {
         O código 'console.log()', recebe as variáveis para ser exibida no console do node, 
         o mesmo pode ser exibido no console do browser.
         Este código é do tipo método do Objeto console, ou uma função nativa da linguagem.
+
+        variáveis dentro de um objeto, são propriedades ou valores, já funções são métodos.
     */
 }
-
-export default variaveis;
+variaveis.showVars();

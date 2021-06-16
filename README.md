@@ -57,6 +57,8 @@
     o ideal que estas estruturas sejam feitas em escopos.
 </p>
 
+<hr>
+
 # Operadores
 | Operador Aritmético |  Descrição  |
 | ----------- | ----------- |
@@ -64,3 +66,11 @@
 | - | Subtração |
 | * | Multiplicação |
 | / | Divisão |
+| % | Módulo - Resto de uma operação de divisão |
+| ++ | Incremento
+| -- | Decremento
+
+ Operador Atribuição |  Descrição  |
+| ----------- | ----------- |
+| = | Atribuição |
+| += | Atribuição de soma (x += y) == (x = x + y) |
