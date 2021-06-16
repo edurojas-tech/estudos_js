@@ -1,24 +1,31 @@
-var nome = "Eduardo Rojas"  //tipo string
-var idade = 25              //tipo number inteiro
-var altura = 1.72           //tipo number float
-var temMoto = true          //tipo boolean verdadeiro
-var temCarro = false        //tipo boolean falso
-var estadoCivil = null      //tipo Null ou Nulo
-var valorIndefinido         //tipo undefined
-var passatempo = ["treinar musculação", "Leitura","Assistir Marvel"]    //tipo array
+const variaveis = {
+    nome : "Eduardo Rojas",  //tipo string
+    idade : 25,              //tipo number inteiro
+    altura : 1.72,           //tipo number float
+    temMoto : true,          //tipo boolean verdadeiro
+    temCarro : false,        //tipo boolean falso
+    estadoCivil : null,      //tipo Null ou Nulo
+    // valorIndefinido,        //tipo undefined
+    passatempo : ["treinar musculação", "Leitura","Assistir Marvel"],   //tipo array
 
-//executando no console do node.js
-console.log(nome)
-console.log(idade)
-console.log(altura)
-console.log(temMoto)
-console.log(temCarro)
-console.log(estadoCivil)
-console.log(valorIndefinido)
+    //executando no console do node.js
+    showVars(){
+        console.log(this.nome);
+        console.log(this.idade);
+        console.log(this.altura);
+        console.log(this.temMoto);
+        console.log(this.temCarro);
+        console.log(this.estadoCivil);
+        console.log(this.valorIndefinido);
+    }
 
-/*
-    === Glossário do JS ===
-    O código 'console.log()', recebe as variáveis para ser exibida no console do node, 
-    o mesmo pode ser exibido no console do browser.
-    Este código é do tipo método do Objeto console, ou uma função nativa da linguagem.
-*/
+    /*
+        ::: Glossário do JS :::
+        O código 'console.log()', recebe as variáveis para ser exibida no console do node, 
+        o mesmo pode ser exibido no console do browser.
+        Este código é do tipo método do Objeto console, ou uma função nativa da linguagem.
+
+        variáveis dentro de um objeto, são propriedades ou valores, já funções são métodos.
+    */
+}
+variaveis.showVars();
