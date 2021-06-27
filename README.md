@@ -53,7 +53,7 @@
     As variáveis podem ser locais ou globais (verificar exemplo no arquivo 
     <a href='https://github.com/edurojas-dev/estudosJS/blob/master/javascript-essencial/escopodevar.js'>
         <b>escopodevar.js</b>    
-    </a>
+    </a>)
 </p>
 <p>
     Em alguns casos as variáveis ou funções globais em JS seja prejudicial, devido ao elevado número de declaração das mesmas, por isso evite criar ou declarar muitas variáveis e funções globais,
