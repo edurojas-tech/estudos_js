@@ -1,5 +1,5 @@
-<h1 align="center">
-    <img alt="JavaScript" title="#estudosJs" src="./img/jsImg.png" />
+<h1 style='display: flex; align-items: center;'>
+    <img alt="JavaScript" title="#estudosJs" src="./img/jsImg.png" style='width: 200px'/>
     <br>
     Estudos da Linguagem JavaScript
 </h1>
