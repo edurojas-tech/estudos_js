@@ -50,7 +50,7 @@
 # Escopo de variável
 <p>
     O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
-    As variáveis podem ser locais ou globais (verificar exemplo na pasta JS).
+    As variáveis podem ser locais ou globais (verificar exemplo no arquivo <b>javascript-esencial/escopodevar.js</b>).
 </p>
 <p>
     Em alguns casos as variáveis ou funções globais em JS seja prejudicial, devido ao elevado número de declaração das mesmas, por isso evite criar ou declarar muitas variáveis e funções globais,
