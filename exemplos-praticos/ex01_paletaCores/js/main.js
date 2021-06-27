@@ -3,7 +3,11 @@ let paletaCores = {
     classe: ".colors",
     cores: [],
     listCores: [
+        "#e17055",
+        "#d63031",
         "#01a3a4",
+        "#ff7675",
+        "#fdcb6e",
         "#222f3e",
         "#ced6e0",
         "#70a1ff",
@@ -29,7 +33,7 @@ let paletaCores = {
     elementoMain(cor, corDesc) {
         return `
                 <div class="colors" style="background-color: ${cor}; color: white">
-                    <p>Código Hex: <b">${corDesc}</b></p>
+                    <p class='descricao'>Código Hex: <b">${corDesc}</b></p>
                 </div>
             `;
     },

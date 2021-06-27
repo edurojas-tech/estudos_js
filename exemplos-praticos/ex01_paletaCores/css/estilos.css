@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body, html, .containerf{
     display: flex;
     flex-wrap: wrap;
@@ -8,6 +9,11 @@ body, html, .containerf{
     margin: 0;
     overflow: auto;
 }
+
+.nav{
+    padding: 10px;
+}
+
 .colors{
     width: calc(100% / 4);
     height: calc(100% / 4);
@@ -15,22 +21,27 @@ body, html, .containerf{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     text-shadow: 2px 2px 4px #000
 }
 
+.descricao{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.18);
+}
+
 @media(max-width: 600px){
-    .containerf{
+    body, html, .containerf{
         display: flex;
-        flex-direction: column;
+        flex-direction: row !important;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
 
     .colors{
-        width: 100%;
-
+        width: 100vw;
     }
 }
