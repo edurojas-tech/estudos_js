@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - FETCH API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+
+</head>
+<body> 
+    
+    <div class="container p-2">
+        <h1 class="title">Repositorios GITHUB</h1>
+        <div id="dados" style="display: flex; flex-direction: column;"></div>
+    </div>
+
+    <script>
+        //criando elemento HTML
+        const elementoHTML = (nome, link) =>{
+            // if(link == null){link = 'sem link'}
+            return `
+                <div>
+                    <b>Nome: </b>${nome}<br>
+                    <b>Link: </b>${link}<br><br>    
+                </div>
+            `
+        }
+        //variáveis
+        const repoURL = "https://api.github.com/users/edurojas-dev/repos"
+        // let dados = document.getElementById('dados')
+        let projetos = []
+
+        //estrutura de uma função assícrona com fetch
+        async function getDados(url){
+            const resposta = await fetch(url)
+            const dados = await resposta.json()
+            console.log(resposta)
+            return dados
+        }
+
+        //tratando os dados retornado da requisição
+        const requisitando = getDados(repoURL).then(r =>{
+            console.log(r)
+
+            let lista = r.filter((x)=>{
+                return x.homepage !== null
+            })
+            console.log(lista)
+
+            // const temPg = r.filter(pages =>{
+            //     return pages.has_pages == true
+            // })
+
+            dados.innerHTML = lista.map((repo)=>{
+                return elementoHTML(repo.name, repo.homepage)
+            }).join('')
+        })
+    </script>
+</body>
+</html>
