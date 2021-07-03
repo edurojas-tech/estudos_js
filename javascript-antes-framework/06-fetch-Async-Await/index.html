@@ -12,6 +12,7 @@
     
     <div class="container p-2">
         <h1 class="title">Repositorios GITHUB</h1>
+        <h2 class="mb-4">Uso do Fetch API e funções Assícrona para consumo da API</h2>
         <div id="dados" style="display: flex; flex-direction: column;"></div>
     </div>
 
@@ -19,10 +20,10 @@
         //criando elemento HTML
         const elementoHTML = (nome, link) =>{
             // if(link == null){link = 'sem link'}
+            var count = 0
             return `
                 <div>
-                    <b>Nome: </b>${nome}<br>
-                    <b>Link: </b>${link}<br><br>    
+                    <b>Link <br></b><a href='${link}' style="width: 140px; padding: 5px;" target=_blank class='button is-link is-small'>${nome}</a> <br><br>    
                 </div>
             `
         }
@@ -47,11 +48,6 @@
                 return x.homepage !== null
             })
             console.log(lista)
-
-            // const temPg = r.filter(pages =>{
-            //     return pages.has_pages == true
-            // })
-
             dados.innerHTML = lista.map((repo)=>{
                 return elementoHTML(repo.name, repo.homepage)
             }).join('')
