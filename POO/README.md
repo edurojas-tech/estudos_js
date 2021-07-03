@@ -15,8 +15,8 @@
                     <li>Reativo</li>
                 </ul>
             </td>
-            <td>
-                <img alt="JavaScript" title="#estudosJs" src="../img/jsImg.png" width='70%' align="center"/>
+            <td align="center">
+                <img alt="JavaScript" title="#estudosJs" src="../img/jsImg.png" width='100%'/>
                 <br>
             </td>
         </tr>
