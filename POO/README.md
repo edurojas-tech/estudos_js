@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
     A linguagem possui os seguintes paradigmas: 
-    <table align="center">
+    <table align="center" border='0'>
         <tr>
             <td>
                 <ul>
