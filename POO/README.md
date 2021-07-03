@@ -16,7 +16,7 @@
                 </ul>
             </td>
             <td align="center">
-                <img alt="JavaScript" title="#estudosJs" src="../img/jsImg.png" width='100%'/>
+                <img alt="JavaScript" title="#estudosJs" src="../img/coding.png" width='100%'/>
                 <br>
             </td>
         </tr>
