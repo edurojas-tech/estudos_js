@@ -49,5 +49,4 @@ const calcularr = {
         }
     }
 }
-
 calcularr.operacao()
