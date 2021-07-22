@@ -22,7 +22,7 @@ function calcular(v1, v2, op){
     }
 }
 
-calcular(x, y, op)
+    
 
 //POO
 const calcularr = {

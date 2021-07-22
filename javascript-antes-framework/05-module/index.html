@@ -10,11 +10,17 @@
 </head>
 <body> 
     
-    <div class="container p-2">
+    <!-- <div class="container p-2">
         <h1 class="title">Repositorios GITHUB</h1>
         <div id="dados" style="display: flex; flex-direction: column;"></div>
-    </div>
+    </div> -->
 
-    <script type="module" src="js/main.js"></script>
+    <script type="module">
+        import { sayHello, sayGoodBye } from "./js/callFunctions.js";
+        import { write } from "./js/write.js"
+        sayHello()
+        sayGoodBye()
+        // write('testando modules')
+    </script>
 </body>
 </html>
