@@ -3,7 +3,7 @@
     <br>
     Estudos da Linguagem JavaScript
 </h1>
-<p align="center">Este repositório é destinado para compartilhar todo conhecimento aprendido com linguagem de programação <b>JavaScript</b></p>
+<p align="center" style='color: #539BEF;'>Este repositório é destinado para compartilhar todo conhecimento aprendido com linguagem de programação <b>JavaScript</b></p>
 
 # O que é JavaScript?
 <p>
