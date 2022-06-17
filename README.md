@@ -7,7 +7,7 @@
 
 # O que é JavaScript?
 <p>
-    É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interprestada / funcional.
+    É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interpretada / funcional.
 </p>
 <p>
     JavaScript permite inserir dinâmica ou interações em elementos <b>HTML</b> e controlar customizações CSS, de forma programática em páginas de internet, sistemas ou app.
