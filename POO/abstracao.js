@@ -116,3 +116,23 @@ const cadeiras = [
 for (let i = 0; i < cadeiras.length; i++) {
     console.log(cadeiras[i].msg())
 }
+
+
+//Exemplo de objeto sofá
+class Sofa {
+    constructor(cor, marca, valor){
+        this.cor = cor,
+        this.marca = marca,
+        this.valor = valor
+    }
+    
+    showDados(){
+        console.log(this)
+    }
+}
+
+const sofaLuxo = new Sofa('Marrom', 'Ortobom', 1354.00)
+const sofaComum = new Sofa('Vermelho', 'Tuchê', 255.00)
+
+sofaLuxo.showDados()
+sofaComum.showDados()
