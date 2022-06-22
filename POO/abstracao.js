@@ -14,125 +14,131 @@
 
 //objeto literal
 const cadeira = {
-    cor: 'azul',
-    qtePernas: 4,
-    giratoria: true,
-    girar(){ 
-        if (this.gira) { 
-            return 'é giratória!'
-        } else { 
-            return 'não gira!'
-        } 
-    },
-    showCor(){
-        return this.color
-    },
+  cor: "azul",
+  qtePernas: 4,
+  giratoria: true,
+  girar() {
+    if (this.gira) {
+      return "é giratória!";
+    } else {
+      return "não gira!";
+    }
+  },
+  showCor() {
+    return this.color;
+  },
 
-    msg(){
-        return `
+  msg() {
+    return `
 
             A cadeira ${this.showCor()}, ${this.girar()}
 
-        `
-    }
-}
+        `;
+  },
+};
 
 // arrays cadeiras - objeto cadeira
 const cadeiras = [
-    { 
-        qtePernas: 4, 
-        color: 'vermelha', 
-        gira: false, 
-        girar(){ 
-            if (this.gira) { 
-                return 'é giratória!'
-            } else { 
-                return 'não gira!'
-            } 
-        },
-        showCor(){
-            return this.color
-        },
+  {
+    qtePernas: 4,
+    color: "vermelha",
+    gira: false,
+    girar() {
+      if (this.gira) {
+        return "é giratória!";
+      } else {
+        return "não gira!";
+      }
+    },
+    showCor() {
+      return this.color;
+    },
 
-        msg(){
-            return `
+    msg() {
+      return `
 
                 A cadeira ${this.showCor()}, ${this.girar()}
 
-            `
-        }
-        
+            `;
+    },
+  },
+
+  {
+    qtePernas: 3,
+    color: "azul",
+    gira: true,
+    girar() {
+      if (this.gira) {
+        return "é giratória!";
+      } else {
+        return "não gira!";
+      }
+    },
+    showCor() {
+      return this.color;
     },
 
-    { 
-        qtePernas: 3, 
-        color: 'azul', 
-        gira: true, 
-        girar(){ 
-            if (this.gira) { 
-                return 'é giratória!'
-            } else { 
-                return 'não gira!'
-            } 
-        },
-        showCor(){
-            return this.color
-        },
-
-        msg(){
-            return `
+    msg() {
+      return `
 
                 A cadeira ${this.showCor()}, ${this.girar()}
 
-            `
-        }
+            `;
     },
-    
-    { 
-        qtePernas: 4, 
-        color: 'verde', 
-        gira: false, 
-        girar(){ 
-            if (this.gira) { 
-                return 'é giratória!'
-            } else { 
-                return 'não gira!'
-            } 
-        },
-        showCor(){
-            return this.color
-        },
+  },
 
-        msg(){
-            return `
+  {
+    qtePernas: 4,
+    color: "verde",
+    gira: false,
+    girar() {
+      if (this.gira) {
+        return "é giratória!";
+      } else {
+        return "não gira!";
+      }
+    },
+    showCor() {
+      return this.color;
+    },
+
+    msg() {
+      return `
 
                 A cadeira ${this.showCor()}, ${this.girar()}
 
-            `
-        }
+            `;
     },
-]
+  },
+];
 
 for (let i = 0; i < cadeiras.length; i++) {
-    console.log(cadeiras[i].msg())
+  console.log(cadeiras[i].msg());
 }
-
 
 //Exemplo de objeto sofá
 class Sofa {
-    constructor(cor, marca, valor){
-        this.cor = cor,
-        this.marca = marca,
-        this.valor = valor
-    }
-    
-    showDados(){
-        console.log(this)
-    }
+  constructor(cor, marca, valor) {
+    (this.cor = cor), (this.marca = marca), (this.valor = valor);
+  }
+
+  showDados() {
+    return this;
+  }
 }
 
-const sofaLuxo = new Sofa('Marrom', 'Ortobom', 1354.00)
-const sofaComum = new Sofa('Vermelho', 'Tuchê', 255.00)
+const sofaLuxo = new Sofa("Marrom", "Ortobom", 1354.0);
+const sofaComum = new Sofa("Vermelho", "Tuchê", 255.0);
+const listaSofas = [
+  new Sofa("Marrom", "Ortobom", 1354.0),
+  new Sofa("Vermelho", "Tuchê", 255.0),
+];
+listaSofas.push(new Sofa("Verde", "Oxford", 3475,00),)
 
-sofaLuxo.showDados()
-sofaComum.showDados()
+function showInformacoes(msg, item){
+    console.log(`=== ${msg} ===`)
+    console.log(item);
+}
+
+showInformacoes('Exibindo array de sofás', listaSofas)
+showInformacoes('Exibindo objeto de um sofá', sofaLuxo.showDados())

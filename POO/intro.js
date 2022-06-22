@@ -20,9 +20,7 @@ function calcular(v1, v2, op){
             console.log(v1 / v2)
         break;
     }
-}
-
-    
+}  
 
 //POO
 const calcularr = {
