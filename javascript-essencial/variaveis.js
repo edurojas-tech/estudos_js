@@ -5,7 +5,7 @@ const variaveis = {
     temMoto : true,          //tipo boolean verdadeiro
     temCarro : false,        //tipo boolean falso
     estadoCivil : null,      //tipo Null ou Nulo
-    // valorIndefinido,        //tipo undefined
+    valorIndefinido,        //tipo undefined
     passatempo : ["treinar musculação", "Leitura","Assistir Marvel"],   //tipo array
 
     //executando no console do node.js
