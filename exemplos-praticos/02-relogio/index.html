@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RELOGIO COM JS</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      transition: 0.3s;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      height: 100vh;
+      overflow: hidden;
+
+    }
+
+    #app {
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #clock {
+      border-radius: 60px;
+      box-shadow: 2px 2px;
+      width: 500px;
+      height: 100px;
+      background-color: rgba(87, 84, 84, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 80px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <img src="#" width="340" id="imagem">
+    <br>
+    <div id="clock">
+      <div id="hora"></div>:
+      <div id="minuto"></div>:
+      <div id="segundos"></div>
+    </div>
+
+  </div>
+
+  <script>
+    setInterval(() => {
+      let timeAtual = new Date()
+      let hora = timeAtual.getHours()
+      let seg = timeAtual.getSeconds()
+
+      document.getElementById("hora").textContent = hora
+      document.getElementById("minuto").textContent = timeAtual.getMinutes()
+      document.getElementById("segundos").textContent = seg < 10 ? "0" + seg : seg
+
+      if (hora < 18) {
+        changeDay("01.gif", "#1E1842")
+      } else if (hora > 22 || hora < 7) {
+        changeDay("noite.png", "#415870")
+      } else {
+        changeDay("02.gif", "#BCCCFE")
+      }
+    }, 1000);
+
+
+    function changeDay(imagem, color) {
+      document.querySelector("#imagem").src = imagem
+      document.body.style.backgroundColor = color
+    }
+
+  </script>
+</body>
+
+</html>
