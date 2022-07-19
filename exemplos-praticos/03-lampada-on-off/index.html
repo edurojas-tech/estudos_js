@@ -44,7 +44,7 @@
       border-radius: 30px;
       color: white;
       cursor: pointer;
-      font-size: 17px;
+      font-size: 30px;
       font-weight: 600;
       width: 100%;
     }
@@ -53,9 +53,9 @@
 
 <body class="flex">
   <div class="boxLed flex">
-    <img src="./triste.png" alt="off" id="led">
+    <img src="./off.png" alt="off" id="led">
     <button id="btn">
-      SEM Gabi do Dudu!
+      ON
     </button>
   </div>
 
@@ -64,13 +64,13 @@
     let btn = document.getElementById("btn")
 
     btn.onclick = () => {
-      if (led.getAttribute("src") == "./triste.png") {
-        led.src = "./feliz.png"
-        btn.textContent = "COM Gabi do Dudu!"
+      if (led.getAttribute("src") == "./off.png") {
+        led.src = "./on.png"
+        btn.textContent = "ON"
 
       } else {
-        led.src = "./triste.png"
-        btn.textContent = "SEM Gabi do Dudu!"
+        led.src = "./off.png"
+        btn.textContent = "OFF"
       }
     }
   </script>
