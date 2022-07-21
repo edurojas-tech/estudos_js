@@ -67,7 +67,7 @@
       let min = timeAtual.getMinutes()
       let seg = timeAtual.getSeconds()
 
-      document.getElementById("hora").textContent = hora
+      document.getElementById("hora").textContent = hora < 10 ? "0" + hora : hora
       document.getElementById("minuto").textContent = min < 10 ? "0" + min : min
       document.getElementById("segundos").textContent = seg < 10 ? "0" + seg : seg
 
