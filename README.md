@@ -77,3 +77,5 @@
 | ----------- | ----------- |
 | = | Atribuição |
 | += | Atribuição de soma (x += y) == (x = x + y) |
+| -= | Atribuição de subtração (x -= y) == (x = x - y) |
+
