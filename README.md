@@ -82,6 +82,22 @@
 | /= | Atribuição de Divisão (x /= y) == (x = x / y) | num /= 2|
 | %= | Atribuição de resto (x %= y) == (x = x % y) | num %= 3|
 
+ Operador de comparação |  Descrição  | Exemplos |
+| ----------- | ----------- | ----------- |
+| == | Igual a | a == b |
+| === | Igual a - tanto o valor quanto o tipo | a === b |
+| != | Diferente de | a != b |
+| > | Maior que | a > b |
+| >= | Maior ou igual a | a >= b |
+| < | Menor que | a < b |
+| <= | Menor ou igual a | a <= b |
+
+
+ Operador de comparação |  Descrição  | Exemplos |
+| ----------- | ----------- | ----------- |
+| && | E | a == b && c > d |
+| || | Ou | a == b || c < d |
+| ! | Negação | !ab |
 
 
 
