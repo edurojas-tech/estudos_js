@@ -7,6 +7,8 @@
 </h1>
 <p align="center" style='color: #539BEF;'>Este repositório é destinado para compartilhar todo conhecimento aprendido com a linguagem de programação <b>JavaScript</b></p>
 
+# 📖Referência de estudo: <b>Estruturas de dados e algoritmos com Javascript - Loiane Groner</b>
+
 # 🐼 O que é JavaScript?
 <p>
     É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interpretada / funcional.
