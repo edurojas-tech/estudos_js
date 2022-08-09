@@ -63,6 +63,10 @@
 <hr>
 
 # Operadores
+<p>
+    Precisamos de operadores quando realizamos qualquer operação em uma linguagem de programação, e em Javascript temos operadores aritméticos, de atribuição, de comparação, lógicos, bit a bit (bitwise), unários e entre outros.
+</p>
+
 | Operador Aritmético |  Descrição  | Exemplos |
 | ----------- | ----------- | ----------- |
 | + | Adição | <b>var somar = 2 + 2</b> |
@@ -93,7 +97,7 @@
 | <= | Menor ou igual a | a <= b |
 
 
- Operador de comparação |  Descrição  | Exemplos |
+ Operadores lógicos |  Descrição  | Exemplos |
 | ----------- | ----------- | ----------- |
 | && | E | a == b && c > d |
 | *||* | Ou | a == b // c < d |
