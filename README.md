@@ -117,7 +117,7 @@
 </p>
 
 # 🐨 Verdadeiro e falso
-- 🐨 True and false. Alguns tipo de dados em Javascript podem ser avaliados e retonar um valor booleando como true ou false.
+- [x] True and false. Alguns tipo de dados em Javascript podem ser avaliados e retonar um valor booleando como true ou false.
     - undefined: false;
     - null: false;
     - Boolean: true ou false
