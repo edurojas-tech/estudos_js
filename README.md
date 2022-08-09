@@ -66,12 +66,12 @@
 | Operador Aritmético |  Descrição  | Exemplos |
 | ----------- | ----------- | ----------- |
 | + | Adição | <b>var somar = 2 + 2</b> |
-| - | Subtração |
-| * | Multiplicação |
-| / | Divisão |
-| % | Módulo - Resto de uma operação de divisão |
-| ++ | Incremento
-| -- | Decremento
+| - | Subtração |<b>var subtrair = 15 - 10</b> |
+| * | Multiplicação | <b>var multi = somar * subtrair </b> |
+| / | Divisão | <b>var somar = multi / 2</b> |
+| % | Módulo - Resto de uma operação de divisão | <b>var mod = 50 % 10 </b> |
+| ++ | Incremento | <b>var i = mod++</b> |
+| -- | Decremento | <b>var d = mod--</b> |
 
  Operador Atribuição |  Descrição  |
 | ----------- | ----------- |
