@@ -96,7 +96,7 @@
  Operador de comparação |  Descrição  | Exemplos |
 | ----------- | ----------- | ----------- |
 | && | E | a == b && c > d |
-| <b>||</b> | Ou | a == b | c < d |
+| // | Ou | a == b // c < d |
 | ! | Negação | !ab |
 
 
