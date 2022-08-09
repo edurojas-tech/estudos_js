@@ -5,7 +5,7 @@
 </h1>
 <p align="center" style='color: #539BEF;'>Este repositório é destinado para compartilhar todo conhecimento aprendido com linguagem de programação <b>JavaScript</b></p>
 
-# O que é JavaScript?
+# 🐼 O que é JavaScript?
 <p>
     É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interpretada / funcional.
 </p>
@@ -35,7 +35,7 @@
     - React Native para desenvolvimento Mobile;
     - Vue Native para desenvolvimento Mobile;
 
-# JavaScript não é Java.
+# 🐗 JavaScript não é Java.
 
 <h2>
     Comentários
@@ -47,7 +47,7 @@
     o responsável pelo código criado, como lembrete.
 </p>
 
-# Escopo de variável
+# 🦊 Escopo de variável
 <p>
     O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
     As variáveis podem ser locais ou globais (verificar exemplo no arquivo 
@@ -62,7 +62,7 @@
 
 <hr>
 
-# Operadores
+# 🐶 Operadores
 <p>
     Precisamos de operadores quando realizamos qualquer operação em uma linguagem de programação, e em Javascript temos operadores aritméticos, de atribuição, de comparação, lógicos, bit a bit (bitwise), unários e entre outros.
 </p>
