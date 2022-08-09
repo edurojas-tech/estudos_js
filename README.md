@@ -3,9 +3,9 @@
     <br>
     🦊 🐻 🐼 🐻‍❄️ 🐨 🐯
     <br>
-    Estudos sobre Linguagem JavaScript
+    Estudos JavaScript
 </h1>
-<p align="center" style='color: #539BEF;'>Este repositório é destinado para compartilhar todo conhecimento aprendido com linguagem de programação <b>JavaScript</b></p>
+<p align="center" style='color: #539BEF;'>Este repositório é destinado para compartilhar todo conhecimento aprendido com a linguagem de programação <b>JavaScript</b></p>
 
 # 🐼 O que é JavaScript?
 <p>
