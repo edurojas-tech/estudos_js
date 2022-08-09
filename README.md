@@ -116,4 +116,13 @@
     </b>
 </p>
 
+# 🐨Verdadeiro e falso
+<p>
+    True and false. Alguns tipo de dados em Javascript podem ser avaliados e retonar um valor booleando como true ou false.
+    - undefined: false;
+    - null: false;
+    - Boolean: true ou false
+    - Number: false para -0, +0 ou NaN, caso contrario é true;
+    - String: uma string vazia retorna false, caso contrário é true;
+</p>
 
