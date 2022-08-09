@@ -73,9 +73,15 @@
 | ++ | Incremento | <b>var i = mod++</b> |
 | -- | Decremento | <b>var d = mod--</b> |
 
- Operador Atribuição |  Descrição  |
-| ----------- | ----------- |
-| = | Atribuição |
-| += | Atribuição de soma (x += y) == (x = x + y) |
-| -= | Atribuição de subtração (x -= y) == (x = x - y) |
+ Operador Atribuição |  Descrição  | Exemplos |
+| ----------- | ----------- | ----------- |
+| = | Atribuição | var attr = 10 |
+| += | Atribuição de soma (x += y) == (x = x + y) | attr+= 1 |
+| -= | Atribuição de subtração (x -= y) == (x = x - y) | attr-= 2|
+| *= | Atribuição de Multiplicação (x *= y) == (x = x * y) | attr*= 3|
+| /= | Atribuição de Divisão (x /= y) == (x = x / y) | attr/= 2|
+| %= | Atribuição de resto (x %= y) == (x = x % y) | attr%= 3|
+
+
+
 
