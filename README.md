@@ -105,15 +105,11 @@
 | *||* | Ou | a == b // c < d |
 | ! | Negação | !ab |
 
-<p>
-    <b>
-       - [x] Também temos o operador "typeof", que nos retorna a descrição do tipo da variável. <br> Exemplos:<br>
-           - console.log(typeof 22) --> number <br>
-           - console.log(typeof false) --> boolean <br>
-           - console.log(typeof "JS") --> string <br>
-           - console.log(typeof [1,2,3]) --> object <br>
-    </b>
-</p>
+ - [x] Também temos o operador "typeof", que nos retorna a descrição do tipo da variável.
+       - console.log(typeof 22) --> number 
+       - console.log(typeof false) --> boolean 
+       - console.log(typeof "JS") --> string 
+       - console.log(typeof [1,2,3]) --> object 
 
 # 🐨 Verdadeiro e falso
 - [x] True and false. Alguns tipo de dados em Javascript podem ser avaliados e retonar um valor booleando como true ou false.
