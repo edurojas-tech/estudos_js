@@ -103,5 +103,15 @@
 | *||* | Ou | a == b // c < d |
 | ! | Negação | !ab |
 
+<p>
+    <b>
+       Também temos o operador "typeof", que nos retorna a descrição do tipo da variável. <br>
+       Exemplos:<br>
+       console.log(typeof 22) --> number <br>
+       console.log(typeof false) --> boolean <br>
+       console.log(typeof "JS") --> string <br>
+       console.log(typeof [1,2,3]) --> object <br>
+    </b>
+</p>
 
 
