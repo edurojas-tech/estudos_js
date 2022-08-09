@@ -4,10 +4,9 @@
     🦊 🐻 🐼 🐻‍❄️ 🐨 🐯
     <br>
     Estudos JavaScript
+    <br>
+     Este repositório é destinado para compartilhar todo conhecimento aprendido com a linguagem de programação <b>JavaScript</b>
 </h1>
-<p align="center" style='color: #539BEF;'>
-    Este repositório é destinado para compartilhar todo conhecimento aprendido com a linguagem de programação <b>JavaScript</b>
-</p>
 
 <b> 📖Referência de estudo: Estruturas de dados e algoritmos com Javascript - Loiane Groner</b>
 
