@@ -64,8 +64,8 @@
 
 # Operadores
 | Operador Aritmético |  Descrição  | Exemplos |
-| ----------- | ----------- |
-| + | Adição | var somar = 2 + 2 |
+| ----------- | ----------- | ----------- |
+| + | Adição | <b>var somar = 2 + 2</b> |
 | - | Subtração |
 | * | Multiplicação |
 | / | Divisão |
