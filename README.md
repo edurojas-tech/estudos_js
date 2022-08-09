@@ -1,7 +1,9 @@
 <h1 align="center">
     <img alt="JavaScript" title="#estudosJs" src="./img/jsImg.png" width='20%' align="center"/>
     <br>
-    Estudos da Linguagem JavaScript
+    🦊 🐻 🐼 🐻‍❄️ 🐨 🐯
+    <br>
+    Estudos sobre Linguagem JavaScript
 </h1>
 <p align="center" style='color: #539BEF;'>Este repositório é destinado para compartilhar todo conhecimento aprendido com linguagem de programação <b>JavaScript</b></p>
 
