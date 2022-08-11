@@ -55,14 +55,19 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
 # 🦁 Variáveis
 <p>
   Em Javascript não poderia ser diferente de qualquer outra linguagem, aqui temos seus tipos de variáveis: 
-    `string` 
+   `string` 
+
     `number` 
+
     `boolean` 
+
     `null` 
+
     `undefined` 
-    `object`
+
+    `object` 
+
     `array`
-    `functions`
 </p>
 
 # 🦊 Escopo de variável
