@@ -52,6 +52,25 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
     o responsável pelo código criado, como lembrete.
 </p>
 
+# Variáveis
+<p>
+   **Tipo de Variáveis:**
+
+`string` 
+
+`number` 
+
+`boolean` 
+
+`null` 
+
+`undefined` 
+
+`object` 
+
+`array`
+</p>
+
 # 🦊 Escopo de variável
 <p>
     O escopo refere-se ao local em onde podemos acessar a variável no algoritmo.
