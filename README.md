@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="JavaScript" title="#estudosJs" src="./img/jsImg.png" width='30%' align="center"/>
+    <img alt="JavaScript" title="#estudosJs" src="./img/jsImg.png" width='25%' align="center"/>
     <br>
     🦊🐻🐼🐻🐨🐯
     <br>
