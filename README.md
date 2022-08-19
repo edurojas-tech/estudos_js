@@ -1,4 +1,3 @@
-🇧🇷
 <h1 align="center">
     <img alt="JavaScript" title="#estudosJs" src="./img/jsImg.png" width='20%' align="center"/>
     <br>
