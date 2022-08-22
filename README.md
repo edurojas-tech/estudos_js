@@ -144,5 +144,5 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
 
 # 🦅 Estruturas de controle
 <p>
-    A linguagem JavaScript tem um conjunto de estruturas de controle semelhantes ao das linguagens C e Java. Instruções condicionais são tratadas com <b>if...else e switch</b>. Laços são tratados com as construções <b>while, do...while e for</b>
+    A linguagem JavaScript tem um conjunto de estruturas de controle semelhante ao das linguagens C e Java. Instruções condicionais são tratadas com <b>if...else e switch</b>. Laços são tratados com as construções <b>while, do...while e for</b>
 </p>
