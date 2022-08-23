@@ -22,3 +22,11 @@
         </tr>
     </table>
 </p>
+<p>
+    Aqui abordaremos mais o POO - Programação orientado a objeto.
+</p>
+
+## Abstração
+<p>
+   Pode se dizer que abstração é aquilo que trata os dados de Entidade, Identidade, características e funcionalidades de um objeto.
+</p>
