@@ -149,6 +149,9 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
 
 <p>
     <b>IF ELSE e Switch: </b> <br>
+    ![code](https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png)
+
+    
     <img src='https://user-images.githubusercontent.com/61126545/189649846-98909351-1ef0-4ad8-b833-cfb57a493060.png' width='40%'/>
 
 </p>
