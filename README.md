@@ -148,10 +148,9 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
 </p>
 
 <p>
-    <b>IF ELSE e Switch: </b> <br>
-    ![code](https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png)
-
-    
-    <img src='https://user-images.githubusercontent.com/61126545/189649846-98909351-1ef0-4ad8-b833-cfb57a493060.png' width='40%'/>
-
+    <b>if else:</b> <br>
+    <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png' width='40%'/>
+       
+    <b>switch:</b> <br>
+    <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png' width='40%'/>
 </p>
