@@ -147,10 +147,6 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
     A linguagem JavaScript tem um conjunto de estruturas de controle semelhante ao das linguagens C e Java. Instruções condicionais são tratadas com <b>if...else e switch</b>. Laços são tratados com as construções <b>while, do...while e for</b>
 </p>
 
-<p>
-    <b>if else:</b> <br>
-    <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png' width='40%'/>
-       
-    <b>switch:</b> <br>
-    <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png' width='40%'/>
-</p>
+| <b>if else</b> |  <b>switch</b>  |
+| ----------- | ----------- |
+| <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png' width='40%'/> | <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png' width='40%'/> |
