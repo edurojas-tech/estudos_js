@@ -150,7 +150,9 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
 <b>Estrutura de condição</b>
 | <b>if else</b> |  <b>ternário</b>  | <b>switch</b> |
 | ----------- | ----------- | ----------- |
-| <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png'/> | img src='https://user-images.githubusercontent.com/61126545/191074018-985c1771-bef5-4d5f-84b0-6d5678a71a03.png'/> | <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png'/> |
+| <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png'/> |
+|![ternary](https://user-images.githubusercontent.com/61126545/191074178-23434b36-b0e5-46fb-b017-75bfad79132c.png) |
+| <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png'/> |
 
-![ternary](https://user-images.githubusercontent.com/61126545/191074178-23434b36-b0e5-46fb-b017-75bfad79132c.png)
+
 
