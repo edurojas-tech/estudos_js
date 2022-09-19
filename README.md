@@ -164,4 +164,4 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
 <b>Estrutura de repetição (exemplos)</b>
 | <b>For</b> | <b>For</b> |
 | ----------- | ----------- |
-| ![for01](https://user-images.githubusercontent.com/61126545/191085714-82de945d-9e01-4b88-a1e8-b065d4c3513b.png) | ![for02](https://user-images.githubusercontent.com/61126545/191085904-c269005a-d3d0-48a3-9d86-202ee74d29c9.png) |
+| ![for01](https://user-images.githubusercontent.com/61126545/191086566-176ec58b-a7bd-4605-90ea-02d328a55154.png) | ![for02](https://user-images.githubusercontent.com/61126545/191085904-c269005a-d3d0-48a3-9d86-202ee74d29c9.png) |
