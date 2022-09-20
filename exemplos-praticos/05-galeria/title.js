@@ -9,8 +9,7 @@ function elemento(id, texto, classes) {
   }  
 }
 
-
-// lógica do titulo da pagina
+// variaveis
 const titlePage = "Thumbnail Gallery"
 const classesTitle = [
   "fw-light",

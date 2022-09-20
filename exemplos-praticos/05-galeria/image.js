@@ -1,4 +1,4 @@
-// lógica para galeria
+// lógica da galeria de fotos
 const galeria = document.getElementById('galeria')
 const tagImages = document.querySelectorAll(".img-thumbnail")
 const urlImages = [
