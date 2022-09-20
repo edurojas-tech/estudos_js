@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1> Hello World Web Component </h1>
+  <meu-circulo texto="A" bg="yellow" cor="black"></meu-circulo>
+  <meu-circulo texto="B" bg="blue" cor="white"></meu-circulo>
+  <meu-circulo texto="C" bg="brown" cor="white"></meu-circulo>
+
+  <div id="app">
+
+  </div>
+
+
+  <script>
+    class MeuCirculo extends HTMLElement {
+      constructor() {
+        super()
+
+        const shadow = this.attachShadow({
+          mode: 'open'
+        })
+
+        //a base ou raiz do componente
+        const raiz = document.createElement('span')
+        raiz.setAttribute('class', 'raiz')
+
+        const texto = document.createElement('span')
+        texto.setAttribute('class', 'texto')
+        texto.textContent = this.getAttribute('texto')
+
+        raiz.appendChild(texto)
+
+        //estilo do componente
+        const style = document.createElement('style')
+        style.textContent = `
+          .raiz {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: ${this.getAttribute('bg')};
+            color: ${this.getAttribute('cor')};
+            padding: 5px;
+            font-weight: 800;
+          }
+        `
+        shadow.appendChild(style)
+        shadow.appendChild(raiz)
+      }
+    }
+    customElements.define('meu-circulo', MeuCirculo)
+  </script>
+</body>
+
+</html>
