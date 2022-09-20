@@ -1,7 +1,10 @@
-// lógica da galeria de fotos
+// Galeria de fotos
+//varivaveis
 const galeria = document.getElementById('galeria')
 const tagImages = document.querySelectorAll(".img-thumbnail")
-const urlImages = [
+
+// Array
+const propImg = [
   "pWkk7iiCoDM",
   "aob0ukAYfuI",
   "EUfxH-pze7s",
@@ -10,13 +13,16 @@ const urlImages = [
   "sesveuG_rNo",
   "p2TQ-3Bh3Oo",
   "EMSDtjVHdQ8",
-  "G9Rfc1qccH4"
+  "G9Rfc1qccH4",
+  "AvhMzHwiE_0"
 ]
 
-function urlImagem (parametroLink) {
-  return `https://source.unsplash.com/${parametroLink}/400x300`
+//setando o dado do src de cada tag img no HTML
+for(i = 0; i <= propImg.length; i++){
+  tagImages[i].src = urlImagem(propImg[i])
 }
 
-for(i = 0; i <= tagImages.length; i++){
-  tagImages[i].src = urlImagem(urlImages[i])
+//retorna uma url concatenada com parametro esperado pela função
+function urlImagem (parametroLink) {
+  return `https://source.unsplash.com/${parametroLink}/400x300`
 }
