@@ -148,6 +148,20 @@ Este repositório é destinado para compartilhar todo conhecimento aprendido com
 </p>
 
 <b>Estrutura de condição</b>
-| <b>if else</b> |  <b>switch</b>  |
+| <b>if else</b>
+| ----------- |
+| <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png'> |
+
+| <b>ternário</b> |
+| ----------- |
+|![ternary](https://user-images.githubusercontent.com/61126545/191074178-23434b36-b0e5-46fb-b017-75bfad79132c.png) |
+
+| <b>switch</b> |
+| ----------- |
+| <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png'> |
+
+<br><br>
+<b>Estrutura de repetição (exemplos)</b>
+| <b>01</b> | <b>02</b> |
 | ----------- | ----------- |
-| <img src='https://user-images.githubusercontent.com/61126545/189651413-04b95aa0-e745-4ec6-b337-a01c1a438ffa.png'/> | <img src='https://user-images.githubusercontent.com/61126545/189652167-25c4455b-ec41-42c2-8e14-4c2e309c5ef5.png'/> |
+| ![for01](https://user-images.githubusercontent.com/61126545/191086566-176ec58b-a7bd-4605-90ea-02d328a55154.png) | ![for02](https://user-images.githubusercontent.com/61126545/191085904-c269005a-d3d0-48a3-9d86-202ee74d29c9.png) |
