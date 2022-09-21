@@ -1,4 +1,4 @@
-let monoarray = ["Estudar JS", "Estudar Inglês", "ir ao mercado", "continuar projeto Branas"]
+let monoarray = ["Estudar JS", "Estudar Inglês", "ir ao mercado"]
 
 let multiarray = [
   ["item 0A", "item0B", "item0C"],  //aqui é multiarray [0]

@@ -2,7 +2,6 @@
 
 // usando for para iterar uma lista (array) e exibir dados no console
 const casa = ['Sala', '3 quartos', '2 banheiros', 'Cozinha', 'Garagem']
-
 console.log('=== SETORES DA CASA ===')
 for(i = 0; i < casa.length; i++) {
   console.log(casa[i])
