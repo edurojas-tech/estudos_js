@@ -10,16 +10,10 @@
 */
 
 //exemplos de uso
-
-// função que exibe informação no console
-function showList(list) {
-  console.log(list)
-}
-
 // arrays
 var listaA = [1, 2, 3, 4, 5] //um array de numeros
 var listaB = ['a', 'b', 'c'] //um array de letras
 
-// chamada da função 'showList' para receber os arrays
-showList(listaA)
-showList(listaB)
+// usando o console.log para exibir os arrays no 'console do terminal ou browser'
+console.log(listaA)
+console.log(listaB)
