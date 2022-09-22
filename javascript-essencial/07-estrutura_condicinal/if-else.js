@@ -1,16 +1,16 @@
 // uso de if else
-const condicao = 'verídica'
+const condicao = 2
 if (condicao) {
-  msg('verídica!')
+  msg('verídico com if-else')
 } else {
   msg('falsa!')
 }
 
 // if else com operador ternário
-condicao ? msg('verídica!') : msg('falsa!')
+condicao ? msg('verídico com ternário') : msg('falsa!')
 
 //em caso de somente uma condição if
-condicao && msg('verídica!')
+condicao &&  msg(condicao + ' com &&')
 
 
 //função para exibir mensagem no log
