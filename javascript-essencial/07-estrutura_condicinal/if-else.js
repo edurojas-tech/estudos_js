@@ -9,7 +9,7 @@ if (condicao) {
 // if else com operador ternário
 condicao ? msg('verídico com ternário') : msg('falsa!')
 
-//em caso de somente uma condição if
+//em casos de uma condição if
 condicao &&  msg(condicao + ' com &&')
 
 
