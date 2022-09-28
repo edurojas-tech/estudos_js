@@ -19,7 +19,7 @@ const foods = [
   new Food("Frango a Passarinho", "Comida Brasileira", 7),
 ];
 
-// ============ modo literal ============
+// ============ Objeto literal ============
 const Home = {
   dono: "Edu",
   tipo: "Apartamento",
