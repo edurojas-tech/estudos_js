@@ -29,7 +29,6 @@ class Produto {
     console.log(`Marca: ${marca}`)
     console.log(`Preço ${preco} \n`)
   }
-
 }
 
 // Array de produtos de uma Loja
