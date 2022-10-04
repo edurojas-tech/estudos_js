@@ -2,8 +2,8 @@ A Criação de <b>Class</b> serve para classificar e abstrair objetos do mundo r
 com programação poder cria-los e simular o desenvolvimento dos mesmos para um sistema ou software.
 <hr>
 
-Objetos:
-- Produto para loja;
+Exemplos de objetos:
+- Produto para loja [x];
 - Comida de cardápio;
 - Storie de Instagram;
 - Curso de plataforma EAD;
