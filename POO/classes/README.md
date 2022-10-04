@@ -3,7 +3,7 @@ com programação poder cria-los e simular o desenvolvimento dos mesmos para um 
 <hr>
 
 Exemplos de objetos:
-- Produto para loja [x];
+- [x] Produto para loja;
 - Comida de cardápio;
 - Storie de Instagram;
 - Curso de plataforma EAD;
