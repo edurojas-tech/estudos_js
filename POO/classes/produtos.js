@@ -1,5 +1,5 @@
+// Class de 'Produto'
 class Produto {
-
   #nome
   #marca
   #preco
@@ -32,7 +32,7 @@ class Produto {
 
 }
 
-// produtos
+// Array de produtos de uma Loja
 const  gadgets = [
   new Produto('Caixa de Som Bluetooh', 'JBL', 'R$ 239,59'),
   new Produto('Mini Charge Som', 'Sony', 'R$ 70,99'),
@@ -40,6 +40,7 @@ const  gadgets = [
   new Produto()
 ]
 
+// exibindo os dados no console
 for (let i = 0; i < gadgets.length; i++) {
   gadgets[i].showDados()
 }
