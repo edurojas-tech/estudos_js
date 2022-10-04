@@ -4,7 +4,7 @@ com programação poder cria-los e simular o desenvolvimento dos mesmos para um 
 
 Exemplos de objetos:
 - [x] Produto para loja;
-- Comida de cardápio;
+- [x] Comida de cardápio;
 - Storie de Instagram;
 - Curso de plataforma EAD;
 - Carro para alugar
