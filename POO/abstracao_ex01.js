@@ -133,12 +133,12 @@ const listaSofas = [
   new Sofa("Marrom", "Ortobom", 1354.0),
   new Sofa("Vermelho", "Tuchê", 255.0),
 ];
-listaSofas.push(new Sofa("Verde", "Oxford", 3475,00),)
+listaSofas.push(new Sofa("Verde", "Oxford", 3475, 00));
 
-function showInformacoes(msg, item){
-    console.log(`=== ${msg} ===`)
-    console.log(item);
+function showInformacoes(msg, item) {
+  console.log(`=== ${msg} ===`);
+  console.log(item);
 }
 
-showInformacoes('Exibindo array de sofás', listaSofas)
-showInformacoes('Exibindo objeto de um sofá', sofaLuxo.showDados())
+showInformacoes("Exibindo array de sofás", listaSofas);
+showInformacoes("Exibindo objeto de um sofá", sofaLuxo.showDados());
