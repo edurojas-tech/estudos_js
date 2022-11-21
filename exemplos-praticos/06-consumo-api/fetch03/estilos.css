@@ -3,7 +3,8 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #app {
@@ -14,7 +15,15 @@ body {
   gap: 20px;
 }
 
-figure{
+h2 {
+  color: white;
+}
+
+.jujutsu_kaisen {
+  display: none;
+}
+
+figure {
   background-color: aliceblue;
   display: block;
   border-radius: 10px;
@@ -23,7 +32,7 @@ figure{
   box-shadow: 4px 4px 4px;
 }
 
-figure img{
+figure img {
   border-radius: 10px 10px 0 0;
   display: block;
   width: 100%;
@@ -35,14 +44,6 @@ figcaption {
   justify-content: center;
   align-items: center;
   height: 30px;
-}
-
-h2 {
-  color: white;
-}
-
-.jujutsu_kaisen {
-  display: none;
 }
 
 @media (max-width: 660px) {
@@ -70,9 +71,9 @@ h2 {
   background: white;
   border-radius: 1px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(90, 6, 87, 0.805); 
+  background: rgba(90, 6, 87, 0.805);
   border-radius: 1px;
 }
