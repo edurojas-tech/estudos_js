@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SECAO 02</title>
+</head>
+
+<body>
+  <script>
+    //Exibir informação de produtos no console do browser
+
+    //Produtos no formato de variáveis
+    //prod A
+    let nomeProdA = 'Toddy'
+    let valorProdA = 'R$ 5,00'
+    let temValidadeA = true
+
+    //prod B
+    let nomeProdB = 'Iogurt Calu Frutas'
+    let valorProdB = 'R$ 9,00'
+    let temValidadeB = true
+
+    //prod C
+    let nomeProdC = 'MousePad Asus'
+    let valorProdC = 'R$ 69,00'
+    let temValidadeC = false
+
+    console.log(nomeProdA, valorProdA, temValidadeA)
+    console.log(nomeProdB, valorProdB, temValidadeB)
+    console.log(nomeProdC, valorProdC, temValidadeC)
+
+    //Produtos no formato de estrutura de dados array de objetos
+    const produtos = [
+      { nome: 'Toddy', valor: 'R$ 5,90', validade: true },
+      { nome: 'Iogurt Calu Frutas', valor: 'R$ 9,00', validade: true },
+      { nome: 'MousePad Asus', valor: 'R$ 89,00', validade: false }
+    ]
+
+    console.table(produtos)
+  </script>
+</body>
+
+</html>
