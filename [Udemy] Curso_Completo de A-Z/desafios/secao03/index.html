@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SECAO 03</title>
+</head>
+
+<body>
+  <script>
+    /*
+      Exemplo de um sistema de notas para uma escola,
+      sistema com 4 notas bimestral e deverá exibir a nota media final do ano
+    */
+    let notas = []
+    for (let bim = 0; bim < 4; bim++) {
+      notas.push(parseFloat(prompt('Insira a nota do Bimestre')))
+    }
+
+    let [n1, n2, n3, n4] = notas //destruturando notas
+    let media = (n1 + n2 + n3 + n4) / 4 //operacao aritmética
+    let status = media < 7 ? 'REPROVADO' : 'APROVADO' // condição ternária
+
+    //exibindo os dados no console do browser
+    console.log('===== SISTEMA DE NOTAS =====')
+    console.table({ 
+      bimestre1: n1,
+      bimestre2: n2,
+      bimestre3: n3,
+      bimestre4: n4,
+      media: media.toFixed(1),
+      status
+    })
+  </script>
+</body>
+
+</html>
