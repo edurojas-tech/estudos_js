@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SECAO 04</title>
+</head>
+
+<body>
+  <script>
+    /*
+      Exibir qual corredor foi mais rápido entre tres atletas
+    */
+   
+    let corredor = c => console.log(
+      `Corredor ${c} foi o mais rápido!`
+    )
+    let corredor1 = 1.45
+    let corredor2 = 2.33
+    let corredor3 = 1.33
+
+    corredor1 < corredor2 && corredor1 < corredor3 
+      ? corredor(1) 
+      : corredor1 > corredor2 && corredor3 > corredor2
+        ? corredor(2)
+        : corredor(3)
+  </script>
+</body>
+
+</html>

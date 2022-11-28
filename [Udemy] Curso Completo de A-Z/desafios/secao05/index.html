@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SECAO 04</title>
+</head>
+
+<body>
+  <script>
+    /*
+      Exibir qual dados de quantidades x valor comprados por um cliente
+    */
+    let valorProduto = 1.99
+    let totalCompra = 0
+    let quantidade = 50
+  
+    for(let n = 0; n < quantidade; n++){
+      totalCompra += valorProduto
+      console.log(`${n + 1} - R$ ${totalCompra.toFixed(2)}`)
+    }
+
+   
+  </script>
+</body>
+
+</html>
