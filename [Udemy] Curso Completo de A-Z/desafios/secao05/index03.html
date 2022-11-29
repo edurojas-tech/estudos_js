@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>secao 05</title>
+</head>
+
+<body>
+  <script>
+    // array vazio
+    let lista = []
+    let produto
+    //estrutura de repetição, com condição para parar quando o dado for vazio
+    while (produto != '') {
+      //variável que recebrá informação do produto digitado pelo usuário
+      produto = prompt('insira um item na lista')
+      let preco = prompt('insira o preço do item')
+
+      /* estrutura de condição que valida quando for 
+      diferente de vázio para o produto ser inserido na lista
+      pelo método push para arrays, o produto é 
+      inserido no formato de objeto */
+      produto != '' && lista.push({ produto, preco })
+    }
+    console.table(lista)
+  </script>
+</body>
+
+</html>
