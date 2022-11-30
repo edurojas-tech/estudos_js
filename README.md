@@ -8,8 +8,6 @@
 
 Este repositório é destinado para compartilhar todo conhecimento aprendido com a linguagem de programação <b>JavaScript</b>
 
-<b> 📖Referência de estudo: Estruturas de dados e algoritmos com Javascript - Loiane Groner</b>
-
 # 🐼 O que é JavaScript?
 <p>
     É uma linguagem de programação de alto nível (que se aproxima da linguagem humano - inglês). E considerada uma linguagem interpretada / funcional.
