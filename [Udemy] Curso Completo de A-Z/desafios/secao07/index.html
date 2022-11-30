@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEÇÃO 07</title>
+</head>
+
+<body>
+
+  <script>
+    /*
+      Apresentar uma lista de notas de alunos 
+      e mostrar quantidades de alunos
+      aprovados e reprovados
+    */
+    let aprovados = 0
+    let reprovados = 0
+    const notas = [
+      { aluno: 'Rafael', nota: 8, status: 'aprovado'},
+      { aluno: 'Gabrielle', nota: 7.5, status: 'aprovado' },
+      { aluno: 'Natalia', nota: 4, status: 'reprovado'},
+      { aluno: 'Betty', nota: 7, status: 'aprovado' },
+      { aluno: 'Eduardo', nota: 4, status: 'reprovado'},
+    ]
+
+    for (const nota of notas) {
+      nota.nota < 7 
+      ? reprovados++
+      : aprovados++
+    }
+    notas.push({
+      aprovados,
+      reprovados
+    })
+
+    console.table(notas)
+  </script>
+</body>
+</html>
