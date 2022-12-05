@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+div.container {
+	height: 100%;
+}
+
+div.description {
+	font-size: 5vw;
+	background-color: #142a3e;
+	text-align: center;
+	padding: 3vw;
+	position: relative;
+}
+
+.line {
+	height: 5px;
+	background: red;
+	transform:  translate(0px, -50px);
+}
+
+h1.title {
+	font: 80px "Press Start 2P", cursive;
+	transform: translate(0px, 0px); 
+	color: white;
+}
+
+p.subtitle {
+	font-size: 1.7vw;
+	font: italic;
+	color: #eec513; 
+	transform: translate(0px, -60px);
+}
+
+button.buttonNewGame {
+	font: 20px "Press Start 2P", cursive;
+	height: 50px;
+	width: 280px;
+	border-radius: 10px;
+	text-align: center;
+	color: #142a3e;
+	background-color:white;
+	position: absolute;
+	transform: translate(-135px, -80px);
+    cursor: pointer;
+}
+
+#keyPressed {
+    transform: translate(0px, -150px); 
+    float: initial;
+    font-size: 2vw;
+	font: italic;	
+	color:white;
+}
+
+#category {
+	transform: translate(-10px, -150px); 
+	float: initial;
+	font: italic;	
+	color:white;
+}
+
+div.dashes {
+	transform: translate(0px, -120px); 
+	font-size: 4vw;
+	width: 50 px;
+	height: 50 px;
+	font: italic;	
+	color:white;
+}
+
+div.wrongLetters {
+    transform: translate(0px, -70px); 
+    float: initial;
+    font-size: 2vw;
+	font: italic;	
+	color:white;
+}
+
+
+div.panelShow {
+	width: 50%;
+	float:right;
+	margin-right: 0vw;
+	font-size: 3vw;
+	padding: 5vw 0vw 5vw 0vw;
+	min-width:40vw;
+    float:right;
+    transform: translate(0px, -30px); 
+}
+
+div.game {
+	width: 50%;
+	float:left;
+	font-size: 3vw;
+	text-align: center;
+	padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    transform: translate(100px, -100px); 
+}
+
+.clean{clear:both;}
+
+body {
+    background: #142a3e;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+body,
+#trunks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trunks {
+	position: relative;
+	left: -130px;
+}
+
+.trunk-1,
+.trunk-2,
+.trunk-3{
+    background: #BF854B;
+    width: 20px;
+}
+
+.trunk-1 {
+    height: 250px;
+}
+
+.trunk-2 {
+	height: 150px;
+    transform: rotate(90deg) translate(-130px, -45px);
+}
+
+.trunk-3 {
+    height: 100px;
+    transform: rotate(90deg) translate(115px, 20px);
+}
+
+#person,
+.top-rope,
+.middle-rope,
+.bottom-rope,
+.bottom-rope::before {
+    position: absolute;
+}
+
+.top-rope {
+	width: 10px; 
+	height: 30px; 
+    top: -20px;
+    left: 380px; 
+    border-radius: 10px;
+    box-shadow: 
+        10px 0 0 0 #F7B239,
+        10px 0 0 1px #cc9028,
+        20px 0 0 0 #F7B239,
+        20px 0 0 1px #cc9028,
+        30px 0 0 0 #F7B239,
+        30px 0 0 1px #cc9028;
+}
+
+.middle-rope {
+    background: #F7B239;
+    width: 10px;
+    height: 40px; 
+    top: 8px;
+    left: 400px; 
+    border: 1px solid #cc9028;
+	border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.bottom-rope {
+    background: transparent;
+    width: 30px;
+    height: 40px;
+    top: 50px; 
+    left: 388px; 
+    border: 2px solid #cc9028;
+    box-shadow: inset 0 0 0 7px #F7B239;
+    border-radius: 50%;
+}
+
+.bottom-rope::before {
+    content: "";
+    width: 5px;
+    height: 20px;
+    top: -20px;
+    left: 12px;
+    border-radius: 10px;
+    box-shadow: 
+        5px 0 0 0 #F7B239,
+        5px 0 0 1px #cc9028,
+        10px 0 0 0 #F7B239,
+        10px 0 0 1px #cc9028;
+    transform: rotate(90deg);
+}
+
+.head,
+.person-body,
+.right-arm,
+.left-arm,
+.right-leg,
+.left-leg {
+    background: #fff;
+    position: absolute; 
+}
+
+.head {
+    width: 50px;
+    height: 50px;
+    top: -190px;
+    left: 250px;
+    border-radius: 50%;
+}
+
+
+.eyes {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .8em;
+	color: red;
+    opacity: 0.3; 	
+    position: absolute;
+    top: -190px;
+    left: 258px; 
+}
+
+.eye-2 {
+    left: 280px; 
+}
+
+.person-body,
+.right-arm,
+.left-arm,
+.right-leg,
+.left-leg {
+    width: 10px;
+    border-radius: 10px;
+	top: -142px; 
+}
+
+.person-body {
+	height: 70px; 
+    left: 270px;  
+}
+
+.right-arm,
+.left-arm,
+.right-leg,
+.left-leg {
+	height: 40px; 
+    left: 270px; 
+}
+
+.right-leg,
+.left-leg {
+    top: -80px; 
+}
+
+.right-arm, .right-leg {
+    transform: rotate(45deg) translate(-10px, 10px);
+}
+
+.left-arm,
+.left-leg {
+    transform: rotate(-45deg) translate(10px, 10px);
+}
+
+#display {
+    font-size: 2em;
+}
+
+.hide {
+    opacity: 0.2; 
+}
+
