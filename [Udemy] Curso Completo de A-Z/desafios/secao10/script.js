@@ -21,99 +21,107 @@ const numTentativas = 7;
 /* Valor para opacidade dos olhos */
 const opacidadeOlhos = 0.3;
 
-const buttonStart = document.querySelector('#startGame')
+const buttonStart = document.querySelector("#startGame");
+let palavraOculta = "";
 
 /*
 Recebe o evento do teclado e passa apenas o valor da letra para a função tentativa
 */
-function retornaLetra(e){ 
-    tentativa(e.key);
-}
+// function retornaLetra(e) {
+//   tentativa(e.key);
+// }
 
 /*
 Desenha a parte do corpo corrente
 */
-function desenhaBoneco(){
-    partesBoneco[indiceBoneco].classList.remove("hide");
-    indiceBoneco++; 
+function desenhaBoneco() {
+  partesBoneco[indiceBoneco].classList.remove("hide");
+  indiceBoneco++;
 }
 
 /* 
 Desenha os olhos do personagem
 */
-function desenhaOlhos(){
-    olhos.forEach((olho => {
-        olho.style.opacity = 1;
-        olho.style.zIndex = 10;
-    }));
+function desenhaOlhos() {
+  olhos.forEach((olho) => {
+    olho.style.opacity = 1;
+    olho.style.zIndex = 10;
+  });
 }
 
 /*
 Oculta as partes do corpo do personagem
 */
-function ocultaBoneco(){
-    olhos.forEach((olho => {
-        olho.style.opacity = opacidadeOlhos; 
-    }));
-    partesBoneco.forEach(parteBoneco => {
-        parteBoneco.classList.add("hide");
-    });
+function ocultaBoneco() {
+  olhos.forEach((olho) => {
+    olho.style.opacity = opacidadeOlhos;
+  });
+  partesBoneco.forEach((parteBoneco) => {
+    parteBoneco.classList.add("hide");
+  });
 }
 
 /*
 Inicia as configurações do jogo
 */
-function iniciaJogo(){
-    indiceBoneco = 0;
-    letrasErradasArray = [];
-    showCategoria()
-    letrasErradas.innerHTML = "Letras erradas: ";
-    window.addEventListener("keypress", retornaLetra);
+function iniciaJogo() {
+  indiceBoneco = 0;
+  letrasErradasArray = [];
+  showCategoria();
+  letrasErradas.innerHTML = "Letras erradas: ";
 }
 
 window.addEventListener("load", iniciaJogo);
 buttonStart.onclick = () => {
-    iniciaJogo()
-}
+  location.reload()
+};
 
 // ============= features aplicas =================
 // exibir a categoria
 const categorias = {
-    frutas: ['banana', 'mamão', 'uva', 'laranja'],
-    marvel: ['spiderman', 'thor', 'ironman', 'hulk'],
-    dc: ['batman', 'superman', 'flash'],
-    profissoes: ['programador', 'advogado', 'contador', 'enfermeiro']
-}
+  frutas: ["banana", "uva", "laranja"],
+  marvel: ["spiderman", "thor", "ironman", "hulk"],
+  dc: ["batman", "superman", "flash"],
+  profissoes: ["programador", "advogado", "contador", "enfermeiro"],
+};
 
-function getCategorias(){
-    return Object.keys(categorias)
+function getCategorias() {
+  return Object.keys(categorias);
 }
 
 function getRandom(lista) {
-    return Math.floor(Math.random() * lista.length)
+  return Math.floor(Math.random() * lista.length);
 }
 
 function getCategoria() {
-    let listaCategoria = getCategorias()
-    let random = getRandom(listaCategoria)
-    return listaCategoria[random]
+  let listaCategoria = getCategorias();
+  let random = getRandom(listaCategoria);
+  return listaCategoria[random];
 }
 
 function showCategoria() {
-    let categoriAtual = getCategoria()
-    let random = getRandom(categorias[categoriAtual])
-    let palavraMisteriosa = categorias[categoriAtual][random]
-    palavraInterface .innerHTML = ocultarPalavra(palavraMisteriosa)
-    categoria.innerHTML = categoriAtual
+  let categoriAtual = getCategoria();
+  let random = getRandom(categorias[categoriAtual]);
+  palavraProposta = categorias[categoriAtual][random];
+  palavraInterface.innerHTML = ocultarPalavra(palavraProposta);
+  categoria.innerHTML = categoriAtual;
 }
 
+function ocultarPalavra(palavra) {
+  for (let i = 0; i < palavra.length; i++) {
+    palavraOculta += "-";
+  }
+  return palavraOculta;
+}
 
-function ocultarPalavra (palavra) {
-    console.log(palavra)
-    let palavraOculta = ''   
-    for (let i = 0; i < palavra.length; i++) {
-        palavraOculta += '-'
+function tentativa(letra) {
+    console.log(letra)
+    for (let l = 0; l < palavraProposta.length; l++) {
+        palavraInterface.innerHTML[l].replace('-', 'A')
     }
-
-    return palavraOculta
+    console.log(palavraInterface.innerHTML)
 }
+
+window.addEventListener("keypress", (e) => {
+    tentativa(e.key)
+});
