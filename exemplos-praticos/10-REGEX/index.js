@@ -1,7 +1,3 @@
-// const stringTest = 'Hllo World!!!'
-// const regex = /Hello/
-// console.log(verify(regex, stringTest))
-
 /* TRABALHANDO COM REGEX - Expressões Regulares */
 
 const telefone = '(34) 9 9225-7447'
