@@ -3,7 +3,7 @@
     <br>
     🦊🐻🐼🐻🐨🐯
     <br>
-    Mundo JavaScript
+    Estudos JavaScript
 </h1>
 
 Este repositório é destinado para compartilhar todo conhecimento aprendido com a linguagem de programação <b>JavaScript</b>
