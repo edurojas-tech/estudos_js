@@ -20,6 +20,7 @@ body, html, .containerf{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     text-shadow: 2px 2px 4px #000
@@ -29,6 +30,22 @@ body, html, .containerf{
     border-radius: 15px;
     padding: 10px;
     background-color: rgba(0,0,0,0.18);
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.18);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #000;
+    transition: 0.22;
+}
+
+button:hover {
+    background-color: rgba(168, 171, 189, 0.941);
 }
 
 @media(max-width: 600px){
