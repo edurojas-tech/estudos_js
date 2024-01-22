@@ -63,15 +63,14 @@
     let led = document.getElementById("led")
     let btn = document.getElementById("btn")
 
-    btn.onclick = () => {
-      if (led.getAttribute("src") == "./off.png") {
-        led.src = "./on.png"
-        btn.textContent = "ON"
+    function setImagem(imagem, btnDesc) {
+      return led.src = imagem, btn.textContent = btnDesc
+    }
 
-      } else {
-        led.src = "./off.png"
-        btn.textContent = "OFF"
-      }
+    btn.onclick = () => {
+      led.getAttribute("src") == "./off.png"
+        ? setImagem("./on.png", "ON")
+        : setImagem("./off.png", "OFF")
     }
   </script>
 </body>

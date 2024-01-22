@@ -8,8 +8,7 @@
   <title>Document</title>
 </head>
 
-<body>
-
+<body>;
   <form name="selectForm">
     <p>
       <label for="tipoMusica">Escolha alguns tipos de música, em seguida, clique no botão abaixo:</label>
@@ -36,7 +35,26 @@
           selecionados++
         }
       }
-      alert("Selecionou: " + selecionados + " musicas!")
+      switch(selecionados) {
+        case 3: 
+          alert("selecionou poucas musicas") 
+          break;
+
+        case 4: 
+          alert("selecionou bastante musicas")
+          break;
+
+        case 5: 
+          alert("selecionou muitas musicas")
+          break;
+
+        case 6: 
+          alert("selecionou todas las musicas!")
+          break;
+
+        default: 
+          alert("selecionou quase nada de musicas!")
+      }
       selecionados = 0
     }
   </script>
