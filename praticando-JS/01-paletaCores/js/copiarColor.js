@@ -1,5 +1,5 @@
 // funcao para copiar color
-function copiarColor(codigo, idButton) {
+function copiarColor(codigo, idButton, elementInput) {
     const btn = document.getElementById(idButton)
     const msg = document.getElementById(`${codigo}-txtCopiado`)
     btn.onclick = () => {

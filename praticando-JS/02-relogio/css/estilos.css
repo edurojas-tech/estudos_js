@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+
+  }
+
+  #app {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #clock {
+    border-radius: 60px;
+    box-shadow: 2px 2px;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(87, 84, 84, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  @media (max-width: 600px) {
+    #clock {
+      width: 80%;
+      border-radius: 20px;
+    }
+  }
