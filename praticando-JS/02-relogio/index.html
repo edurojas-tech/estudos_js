@@ -34,9 +34,9 @@
     }, 1000)
 
     function changeBg(){
-      if (horaa >= 22 && hora <= 6) {
+      if (horaa > 21 || hora < 6) {
         changeDay("noite.png", "#415870")
-      } else if (horaa >= 18 && hora < 22) {
+      } else if (horaa > 18 || hora < 22) {
         changeDay("01.gif", "#415870")
       }else {
         changeDay("02.gif", "#BCCCFE")
