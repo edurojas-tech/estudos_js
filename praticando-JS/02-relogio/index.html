@@ -15,6 +15,22 @@
     <div id="clock">
       <div id="hora"></div>:<div id="minuto"></div>:<div id="segundos"></div>
     </div>
+
+    <br>
+
+    <form action="#">
+      <label for="despertador" id="despertador">
+        <h2>Programa despertador</h2>
+        <input 
+          type="time"
+          value="00:00" 
+          name="despertador" 
+          onchange="localStorage.setItem('horarioDespestar', JSON.stringify(this.value))"/>
+      </label>
+      <br>
+    </form>
+    <br>
+    <p id="alarmePRogramado" style="text-align: center; color: #fff;"></p>
   </div>
 
   <script src="js/changeDay.js"></script>
@@ -31,6 +47,8 @@
       document.getElementById("hora").textContent = hora < 10 ? "0" + hora : hora
       document.getElementById("minuto").textContent = min < 10 ? "0" + min : min
       document.getElementById("segundos").textContent = seg < 10 ? "0" + seg : seg
+
+      despertarAlarme(horaa, min)
     }, 1000)
 
     function changeBg(){
@@ -48,6 +66,19 @@
     }, 60000);
 
     changeBg()
+
+    function despertarAlarme(horaa, min) {
+      const horario = localStorage.getItem("horarioDespestar")
+      const horarioComparador = `"${horaa}:${min}"`
+      let texto = document.getElementById("alarmePRogramado")
+
+      horario &&
+      (texto.textContent = `Ultimo horario programado para alarme: ${horario}`)
+
+      horario == horarioComparador 
+        ? (alert("Acordar!"),localStorage.removeItem("horarioDespestar"), texto.textContent = "")
+        : console.log("sem alarme!")      
+    }
   </script>
 </body>
 </html>

@@ -36,6 +36,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
+  #despertador input {
+    padding: 10px 4px;
+    margin-top: 10px;
+    width: 215px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0.03px solid #fff;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+
   @media (max-width: 600px) {
     #clock {
       width: 80%;
