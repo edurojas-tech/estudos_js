@@ -48,9 +48,17 @@
     text-align: center;
   }
 
+  #imagem {
+    width: 30%;
+  }
+
   @media (max-width: 600px) {
     #clock {
       width: 80%;
       border-radius: 20px;
+    }
+
+    #imagem {
+      width: 70%;
     }
   }
